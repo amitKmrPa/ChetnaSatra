@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Chetna Satra</string>
+
+    <!-- Offline chat -->
+    <string name="offline_title">Offline GPT</string>
+    <string name="offline_empty_title">Start chatting offline</string>
+    <string name="offline_empty_body">Pick or download a model in Model Manager, then send a message. Everything stays on your device.</string>
+    <string name="offline_select_model">Please select a model in Model Manager</string>
+    <string name="offline_initializing">Initializing engine…</string>
+    <string name="offline_new_chat">New chat</string>
+    <string name="offline_try_asking">Try asking</string>
+    <string name="offline_model_manager">Model Manager</string>
+    <string name="offline_model_none">Model: Not Selected</string>
+    <string name="offline_model_prefix">Model: %1$s</string>
+    <string name="offline_model_icon">Model</string>
+    <string name="offline_add_from_device">Add from Device</string>
+    <string name="offline_download_model">Download Model</string>
+    <string name="offline_input_hint">Type your message…</string>
+    <string name="offline_send">Send</string>
+
+    <!-- चेतना सत्र संसाधन सामग्री -->
+    <string name="cs_title">चेतना सत्र संसाधन सामग्री</string>
+    <string name="cs_authority">राज्य शिक्षा शोध एवं प्रशिक्षण परिषद, बिहार, पटना</string>
+    <string name="cs_edition_primary_short">प्रारंभिक (1-8)</string>
+    <string name="cs_edition_secondary_short">कक्षा 9-12</string>
+    <string name="cs_stamp">दिनांक: %1$s • संस्करण %2$d • %3$s</string>
+    <string name="cs_next_in">अगला अद्यतन %1$s में</string>
+    <string name="cs_auto_paused">स्वतः अद्यतन बंद</string>
+    <string name="cs_refresh_now">अभी नई सामग्री</string>
+    <string name="cs_pause_auto">स्वतः अद्यतन रोकें</string>
+    <string name="cs_resume_auto">स्वतः अद्यतन चालू करें</string>
+    <string name="cs_share">सामग्री साझा करें</string>
+
+    <!-- Daily refresh schedule -->
+    <string name="cs_schedule_label">अद्यतन समय: %1$s (प्रतिदिन)</string>
+    <string name="cs_set_schedule">अद्यतन समय बदलें</string>
+    <string name="cs_schedule_dialog_title">अद्यतन समय निर्धारित करें</string>
+    <string name="cs_schedule_hint">जिस दिनांक और समय पर नई सामग्री बननी चाहिए उसे चुनें। इसके बाद प्रतिदिन उसी समय पर सामग्री स्वयं बदलती रहेगी।</string>
+    <string name="cs_schedule_time_label">समय (घंटा : मिनट : सेकंड)</string>
+    <string name="cs_schedule_set">सेट करें</string>
+    <string name="cs_cancel">रद्द करें</string>
+    <string name="cs_hour">घंटा</string>
+    <string name="cs_minute">मिनट</string>
+    <string name="cs_second">सेकंड</string>
+    <string name="cs_schedule_saved">अगला अद्यतन: %1$s</string>
+    <string name="cs_days_prefix">%1$d दिन %2$s</string>
+    <string name="cs_answer_prefix">उत्तर: %1$s</string>
+</resources>

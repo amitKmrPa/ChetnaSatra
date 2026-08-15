@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Night-mode overrides. The layouts reference these names directly, so dark mode needs no
+  structural changes — the surfaces and bubbles simply resolve to darker values.
+-->
+<resources>
+    <!-- Top bar keeps the brand identity but drops in brightness so it isn't glaring -->
+    <color name="topbar_start">#0E8C82</color>
+    <color name="topbar_end">#0A6B64</color>
+
+    <color name="brand_teal_light">#123A38</color>
+    <color name="brand_teal_deep">#8FF3E8</color>
+
+    <color name="surface_app">#12161A</color>
+    <color name="surface_elevated">#1B2126</color>
+    <color name="divider">#2A3138</color>
+
+    <color name="chat_background">#0D1114</color>
+    <color name="chat_surface">#1B2126</color>
+    <color name="chat_input_stroke">#2A3138</color>
+    <color name="chat_bubble_user">#0FB4A6</color>
+    <color name="chat_bubble_user_text">#04241F</color>
+    <color name="chat_bubble_ai">#232B31</color>
+    <color name="chat_bubble_ai_text">#E6EBEF</color>
+
+    <color name="text_primary">#E6EBEF</color>
+    <color name="text_secondary">#9AA6B1</color>
+
+    <color name="danger_red">#FF6B66</color>
+</resources>

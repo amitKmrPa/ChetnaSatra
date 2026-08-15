@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh_now"
+        android:icon="@drawable/ic_refresh_24"
+        android:title="@string/cs_refresh_now"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_set_schedule"
+        android:title="@string/cs_set_schedule"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_toggle_auto"
+        android:title="@string/cs_pause_auto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share_sheet"
+        android:title="@string/cs_share"
+        app:showAsAction="never" />
+</menu>

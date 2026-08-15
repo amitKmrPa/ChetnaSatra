@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Dark theme. The colour resources themselves flip via values-night/colors.xml, so only the
+      light-status-bar flag and the brighter primary need overriding here.
+    -->
+    <style name="Base.Theme.ChetnaSatra" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_teal</item>
+        <item name="colorOnPrimary">@color/brand_teal_deep</item>
+        <item name="colorPrimaryContainer">@color/brand_teal_light</item>
+        <item name="colorOnPrimaryContainer">@color/brand_teal_deep</item>
+
+        <item name="colorSecondary">@color/brand_teal</item>
+        <item name="colorOnSecondary">@color/brand_teal_deep</item>
+        <item name="colorSecondaryContainer">@color/brand_teal_light</item>
+        <item name="colorOnSecondaryContainer">@color/brand_teal_deep</item>
+
+        <item name="colorSurface">@color/surface_app</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/surface_elevated</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/divider</item>
+        <item name="colorOutlineVariant">@color/divider</item>
+        <item name="colorError">@color/danger_red</item>
+
+        <item name="android:colorBackground">@color/surface_app</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.ChetnaSatra.BottomSheet</item>
+    </style>
+</resources>

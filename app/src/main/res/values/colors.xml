@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand palette -->
+    <color name="brand_teal">#15DCCA</color>
+    <color name="brand_teal_dark">#0FB4A6</color>
+    <color name="brand_teal_light">#E0FBF8</color>
+    <color name="brand_teal_deep">#065C54</color>
+
+    <!-- Top bar gradient -->
+    <color name="topbar_start">#12E6D2</color>
+    <color name="topbar_end">#0FB4A6</color>
+
+    <!-- App surfaces (night variants live in values-night/colors.xml) -->
+    <color name="surface_app">#FFFFFF</color>
+    <color name="surface_elevated">#F5F8F9</color>
+    <color name="divider">#E3E8EC</color>
+
+    <!-- Offline chat surfaces -->
+    <color name="chat_background">#F5F5F5</color>
+    <color name="chat_surface">#FFFFFF</color>
+    <color name="chat_input_stroke">#E0E0E0</color>
+    <color name="chat_bubble_user">#15DCCA</color>
+    <color name="chat_bubble_user_text">#FFFFFF</color>
+    <color name="chat_bubble_ai">#FFFFFF</color>
+    <color name="chat_bubble_ai_text">#1F2933</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1F2933</color>
+    <color name="text_secondary">#5A6672</color>
+
+    <!-- Accents -->
+    <color name="danger_red">#E53935</color>
+
+    <!-- Background of the चेतना सत्र संसाधन सामग्री menu entry -->
+    <color name="menu_green">#0FB4A6</color>
+</resources>

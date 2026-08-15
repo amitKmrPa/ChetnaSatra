@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shared by term pairs and "label — value" lines; the bold/plain split is applied as a span. -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cs_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:lineSpacingMultiplier="1.15"
+    android:textColor="@color/text_primary"
+    android:textSize="15sp" />

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Material3 shell with the brand teal mapped onto the Material colour roles, so every
+      dialog, bottom sheet and button picks up the same identity without per-widget styling.
+    -->
+    <style name="Base.Theme.ChetnaSatra" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_teal_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_teal_light</item>
+        <item name="colorOnPrimaryContainer">@color/brand_teal_deep</item>
+
+        <item name="colorSecondary">@color/brand_teal_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/brand_teal_light</item>
+        <item name="colorOnSecondaryContainer">@color/brand_teal_deep</item>
+
+        <item name="colorSurface">@color/surface_app</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/surface_elevated</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/divider</item>
+        <item name="colorOutlineVariant">@color/divider</item>
+        <item name="colorError">@color/danger_red</item>
+
+        <item name="android:colorBackground">@color/surface_app</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.ChetnaSatra.BottomSheet</item>
+    </style>
+
+    <style name="Theme.ChetnaSatra" parent="Base.Theme.ChetnaSatra" />
+
+    <!-- Rounded bottom sheet used by the Model Manager -->
+    <style name="ThemeOverlay.ChetnaSatra.BottomSheet" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.ChetnaSatra.BottomSheet</item>
+    </style>
+
+    <style name="Widget.ChetnaSatra.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.ChetnaSatra.BottomSheet</item>
+        <item name="backgroundTint">@color/surface_app</item>
+    </style>
+
+    <style name="ShapeAppearance.ChetnaSatra.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!--
+      Green overflow menu for the offline chat toolbar. The menu holds a single entry
+      (चेतना सत्र संसाधन सामग्री), so theming the popup background is what turns that entry green;
+      the text colour is forced to white to stay readable on it.
+    -->
+    <style name="ThemeOverlay.ChetnaSatra.GreenMenu" parent="ThemeOverlay.Material3.Light">
+        <!--
+          The Material3 overflow popup paints itself from the surface colour roles, not from
+          android:popupBackground, so the roles are what have to be remapped here.
+        -->
+        <item name="colorSurface">@color/menu_green</item>
+        <item name="colorSurfaceContainer">@color/menu_green</item>
+        <item name="colorSurfaceContainerLow">@color/menu_green</item>
+        <item name="colorSurfaceContainerHigh">@color/menu_green</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnSurfaceVariant">@color/white</item>
+        <item name="android:colorBackground">@color/menu_green</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>
